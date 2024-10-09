@@ -1,8 +1,10 @@
 import React from "react";
-import { Text } from "react-native";
+import { Text, View } from "react-native";
 
 export default function FeedScreen() {
   return (
-    <Text>Feed</Text>
+    <View className="bg-slate-600 flex-1 items-center justify-center m-10">
+        <Text className="font-5xl font-bold text-blue-500">Feed</Text>
+    </View>
   );
 }
