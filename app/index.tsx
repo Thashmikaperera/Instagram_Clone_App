@@ -1,15 +1,8 @@
-import { Text, View } from "react-native";
+import { Redirect } from "expo-router";
+import { Text } from "react-native";
 
-export default function Index() {
+export default function Home() {
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>app</Text>
-    </View>
-  );
-}
+  <Redirect href="/(tabs)" />
+  
+)};
